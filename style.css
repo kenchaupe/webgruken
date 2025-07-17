@@ -171,7 +171,7 @@ th, td {
     align-items: center;
     flex-basis: calc(33.3% - 15px);
     background-color: #f5f5f5;
-    padding: 35px;
+    padding: 30px;
 }
 
 
@@ -224,7 +224,7 @@ th, td {
 .product-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 30px;
 }
 
 .product {
