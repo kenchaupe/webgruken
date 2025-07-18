@@ -470,15 +470,15 @@ th, td {
 
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
+	width:65px;
+	height:65px;
+	bottom:25px;
+	right:25px;
 	background-color:#25d366;
 	color:#000;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+  font-size:35px;
 	box-shadow: 2px 2px 3px #272d30;
   z-index:100;
 }
