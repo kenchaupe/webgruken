@@ -640,9 +640,9 @@ th, td {
 
 .float4{
 	position:fixed;
-	width:42px;
-	height:42px;
-	bottom:530px;
+	width:45px;
+	height:26px;
+	top:15px;
 	right:30px;
 	background-color:transparent;
 	color:transparent;
@@ -652,6 +652,16 @@ th, td {
   z-index:100;
 }
 
+.float4:hover {
+	text-decoration: none;
+	color: #FFF;
+  background-color:#fbff00;
+    
+}
+
 .my-float4{
 	margin-top:16px;
+}
+.pulse4 {
+	animation: pulse-animation 2s infinite;
 }
