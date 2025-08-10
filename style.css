@@ -60,7 +60,7 @@ header {
 }
 
 .menu .navbar ul li a {
-    font-size: 18px;
+    font-size: 22px;
     padding: 20px;
     color: #111111;
     display: block;
@@ -209,7 +209,7 @@ th, td {
 
 
 .products {
-    padding: 50px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -229,14 +229,14 @@ th, td {
 
 .product {
     text-align: center;
-    padding: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 1%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .product img {
-    width: 250px;
-    height: 370px;
-    margin-bottom: 20px;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 5px;
 }
 
 .product h3 {
@@ -244,13 +244,13 @@ th, td {
     color: #111111;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .product p, .precio {
     font-size: 16px;
     color: #111111;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .precio {
@@ -353,14 +353,19 @@ th, td {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #181818;
+        background-color: #4e4b5076;
         display: none;
+        right: 0%;
+        backdrop-filter: blur(10px);
+        z-index: 1;
+        padding: 20px;
+        min-width: 400px;
     }
     .menu .navbar ul li {
         width: 100%;
     }
     .menu .navbar ul li a {
-        color: #ffffff;
+        color: #000000;
     }
 
     #menu:checked ~ .navbar {
@@ -368,7 +373,7 @@ th, td {
     }
 
     .logo {
-        display: none;
+        display: absolute;
     }
 
     .submenu:hover #carrito {
@@ -427,8 +432,8 @@ th, td {
 
 
     .product img {
-        width: 200px;
-        right: 280px;
+        width: 300px;
+        height: 400px;
     }
 
     .icons {
@@ -640,14 +645,14 @@ th, td {
 
 .float4{
 	position:fixed;
-	width:45px;
-	height:26px;
-	top:15px;
-	right:30px;
+	width:center;
+	height:36px;
+	top:center;
+	right:center;
 	background-color:transparent;
 	color:transparent;
 	border-radius:50px;
-	text-align:center;
+	text-align:fixed;
   font-size:20px;
   z-index:100;
 }
@@ -655,13 +660,13 @@ th, td {
 .float4:hover {
 	text-decoration: none;
 	color: #FFF;
-  background-color:#fbff00;
+  background-color:transparent;
     
 }
 
 .my-float4{
-	margin-top:16px;
+	margin-top:100px;
 }
-.pulse4 {
-	animation: pulse-animation 2s infinite;
-}
+
+
+
