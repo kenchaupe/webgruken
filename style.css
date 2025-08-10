@@ -37,7 +37,7 @@ header {
 
 .menu {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 0;
     right: 0%;
     display: flex;
@@ -71,7 +71,7 @@ header {
 }
 
 .menu-icono {
-    width: 25px;
+    width: 33px;
 }
 
 .menu label {
@@ -343,7 +343,7 @@ th, td {
 
 @media (max-width:992px) {
     .menu {
-        padding: 20px;
+        padding: 22px;
     }
     .menu label {
         display: initial;
