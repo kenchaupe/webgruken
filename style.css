@@ -248,7 +248,7 @@ th, td {
 }
 
 .product p, .precio {
-    font-size: 16px;
+    font-size: 25px;
     color: #111111;
     margin-bottom: 10px;
 }
@@ -344,9 +344,11 @@ th, td {
 @media (max-width:992px) {
     .menu {
         padding: 22px;
+        
     }
     .menu label {
         display: initial;
+
     }
     .menu .navbar {
         position: absolute;
@@ -670,3 +672,14 @@ th, td {
 
 
 
+        .marq {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .geek1 {
+            font-size: 30px;
+            font-weight: bold;
+            color: #000;
+            padding-bottom: 10px;
+        }
