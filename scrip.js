@@ -70,3 +70,7 @@ function vaciarCarrito() {
     return false;
 }
 
+
+
+
+

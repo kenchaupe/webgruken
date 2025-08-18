@@ -7,6 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gruken</title>
     <link rel="stylesheet" href="style.css">
+    
+</head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 400%;
+    }
+
+    body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 300px;
+      height: 400px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: flex;
+      width: 400px;
+      height: 300px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
 
@@ -64,6 +107,7 @@
             <div class="header-img">
                 <img src="images/right.png" alt="">
             </div>
+            
              <div class="header-txt">
                 <h1>Ofertas Especiales</h1>
                  <p>estrena las mejores prendas</p>
@@ -125,7 +169,7 @@
         </div>
     </section>
     <main class="products container" id="lista-1">
-        <h2>Primavera</h2>
+        <h2>Novedades</h2>
         <marquee class="marq" bgcolor="transparent" 
                  direction="left" loop="">
             <div class="geek1">
@@ -134,7 +178,31 @@
         </marquee>
         <div class="product-content">
             <div class="product">
-            <img src="images/1.png" alt="">
+            
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo1/1.jpg" class="swiper-slide">
+      <img src="novedades/articulo1/2.jpg" class="swiper-slide">
+      <img src="novedades/articulo1/3.jpg" class="swiper-slide">
+      <img src="novedades/articulo1/4.jpg" class="swiper-slide">
+      <img src="novedades/articulo1/5.jpg" class="swiper-slide">
+      <img src="novedades/articulo2/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camisa</h3>
                 <p>Calidad Premium</p> 
@@ -176,7 +244,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/2.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo2/1.png" class="swiper-slide">
+      <img src="novedades/articulo2/2.png" class="swiper-slide">
+      <img src="novedades/articulo2/3.png" class="swiper-slide">
+      <img src="novedades/articulo2/4.png" class="swiper-slide">
+      <img src="novedades/articulo2/5.png" class="swiper-slide">
+      <img src="novedades/articulo2/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Campera Hombre</h3>
                 <p>Calidad Premium</p>
@@ -218,7 +310,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/3.png" alt="">
+            
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo3/1.png" class="swiper-slide">
+      <img src="novedades/articulo3/2.png" class="swiper-slide">
+      <img src="novedades/articulo3/3.png" class="swiper-slide">
+      <img src="novedades/articulo3/4.png" class="swiper-slide">
+      <img src="novedades/articulo3/5.png" class="swiper-slide">
+      <img src="novedades/articulo3/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Campera Mujer</h3>
                 <p>Calidad Premium</p>
@@ -260,7 +376,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/4.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo4/1.png" class="swiper-slide">
+      <img src="novedades/articulo4/2.png" class="swiper-slide">
+      <img src="novedades/articulo4/3.png" class="swiper-slide">
+      <img src="novedades/articulo4/4.png" class="swiper-slide">
+      <img src="novedades/articulo4/5.png" class="swiper-slide">
+      <img src="novedades/articulo4/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camisa Azul Francia</h3>
                 <p>Calidad Premium</p>
@@ -302,7 +442,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/5.png" alt="">
+ 
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo5/1.png" class="swiper-slide">
+      <img src="novedades/articulo5/2.png" class="swiper-slide">
+      <img src="novedades/articulo5/3.png" class="swiper-slide">
+      <img src="novedades/articulo5/4.png" class="swiper-slide">
+      <img src="novedades/articulo5/5.png" class="swiper-slide">
+      <img src="novedades/articulo5/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camisa Negra</h3>
                 <p>Calidad Premium</p>
@@ -344,7 +508,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/6.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo6/1.png" class="swiper-slide">
+      <img src="novedades/articulo6/2.png" class="swiper-slide">
+      <img src="novedades/articulo6/3.png" class="swiper-slide">
+      <img src="novedades/articulo6/4.png" class="swiper-slide">
+      <img src="novedades/articulo6/5.png" class="swiper-slide">
+      <img src="novedades/articulo6/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camperon Mujer Corderito</h3>
                 <p>Calidad Premium</p>
@@ -386,7 +574,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/1.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo7/1.png" class="swiper-slide">
+      <img src="novedades/articulo7/2.png" class="swiper-slide">
+      <img src="novedades/articulo7/3.png" class="swiper-slide">
+      <img src="novedades/articulo7/4.png" class="swiper-slide">
+      <img src="novedades/articulo7/5.png" class="swiper-slide">
+      <img src="novedades/articulo7/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camisa</h3>
                 <p>Calidad Premium</p> 
@@ -428,7 +640,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/2.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo8/1.png" class="swiper-slide">
+      <img src="novedades/articulo8/2.png" class="swiper-slide">
+      <img src="novedades/articulo8/3.png" class="swiper-slide">
+      <img src="novedades/articulo8/4.png" class="swiper-slide">
+      <img src="novedades/articulo8/5.png" class="swiper-slide">
+      <img src="novedades/articulo8/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Campera Hombre</h3>
                 <p>Calidad Premium</p>
@@ -470,7 +706,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/3.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo9/1.png" class="swiper-slide">
+      <img src="novedades/articulo9/2.png" class="swiper-slide">
+      <img src="novedades/articulo9/3.png" class="swiper-slide">
+      <img src="novedades/articulo9/4.png" class="swiper-slide">
+      <img src="novedades/articulo9/5.png" class="swiper-slide">
+      <img src="novedades/articulo9/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Campera Mujer</h3>
                 <p>Calidad Premium</p>
@@ -512,7 +772,32 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/4.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo10/1.png" class="swiper-slide">
+      <img src="novedades/articulo10/2.png" class="swiper-slide">
+      <img src="novedades/articulo10/3.png" class="swiper-slide">
+      <img src="novedades/articulo10/4.png" class="swiper-slide">
+      <img src="novedades/articulo10/5.png" class="swiper-slide">
+      <img src="novedades/articulo10/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+            
             <div class="product-txt">
                 <h3>Camisa Azul Francia</h3>
                 <p>Calidad Premium</p>
@@ -554,7 +839,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/5.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo11/1.png" class="swiper-slide">
+      <img src="novedades/articulo11/2.png" class="swiper-slide">
+      <img src="novedades/articulo11/3.png" class="swiper-slide">
+      <img src="novedades/articulo11/4.png" class="swiper-slide">
+      <img src="novedades/articulo11/5.png" class="swiper-slide">
+      <img src="novedades/articulo11/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camisa Negra</h3>
                 <p>Calidad Premium</p>
@@ -596,7 +905,29 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/6.png" alt="">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo12/1.png" class="swiper-slide">
+      <img src="novedades/articulo12/2.png" class="swiper-slide">
+      <img src="novedades/articulo12/3.png" class="swiper-slide">
+      <img src="novedades/articulo12/4.png" class="swiper-slide">
+      <img src="novedades/articulo12/5.png" class="swiper-slide">
+      <img src="novedades/articulo12/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
             <div class="product-txt">
                 <h3>Camperon Mujer Corderito</h3>
                 <p>Calidad Premium</p>
@@ -638,7 +969,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/1.png" alt="">
+  
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo13/1.png" class="swiper-slide">
+      <img src="novedades/articulo13/2.png" class="swiper-slide">
+      <img src="novedades/articulo13/3.png" class="swiper-slide">
+      <img src="novedades/articulo13/4.png" class="swiper-slide">
+      <img src="novedades/articulo13/5.png" class="swiper-slide">
+      <img src="novedades/articulo13/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camisa</h3>
                 <p>Calidad Premium</p> 
@@ -680,7 +1035,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/2.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo14/1.png" class="swiper-slide">
+      <img src="novedades/articulo14/2.png" class="swiper-slide">
+      <img src="novedades/articulo14/3.png" class="swiper-slide">
+      <img src="novedades/articulo14/4.png" class="swiper-slide">
+      <img src="novedades/articulo14/5.png" class="swiper-slide">
+      <img src="novedades/articulo14/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Campera Hombre</h3>
                 <p>Calidad Premium</p>
@@ -722,7 +1101,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/3.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo15/1.png" class="swiper-slide">
+      <img src="novedades/articulo15/2.png" class="swiper-slide">
+      <img src="novedades/articulo15/3.png" class="swiper-slide">
+      <img src="novedades/articulo15/4.png" class="swiper-slide">
+      <img src="novedades/articulo15/5.png" class="swiper-slide">
+      <img src="novedades/articulo15/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Campera Mujer</h3>
                 <p>Calidad Premium</p>
@@ -764,7 +1167,29 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/4.png" alt="">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo6/1.png" class="swiper-slide">
+      <img src="novedades/articulo16/2.png" class="swiper-slide">
+      <img src="novedades/articulo16/3.png" class="swiper-slide">
+      <img src="novedades/articulo16/4.png" class="swiper-slide">
+      <img src="novedades/articulo16/5.png" class="swiper-slide">
+      <img src="novedades/articulo16/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
             <div class="product-txt">
                 <h3>Camisa Azul Francia</h3>
                 <p>Calidad Premium</p>
@@ -806,7 +1231,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/5.png" alt="">
+ 
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo17/1.png" class="swiper-slide">
+      <img src="novedades/articulo17/2.png" class="swiper-slide">
+      <img src="novedades/articulo17/3.png" class="swiper-slide">
+      <img src="novedades/articulo17/4.png" class="swiper-slide">
+      <img src="novedades/articulo17/5.png" class="swiper-slide">
+      <img src="novedades/articulo17/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camisa Negra</h3>
                 <p>Calidad Premium</p>
@@ -848,7 +1297,31 @@
             </div>
             </div>
             <div class="product">
-            <img src="images/6.png" alt="">
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <img src="novedades/articulo18/1.png" class="swiper-slide">
+      <img src="novedades/articulo18/2.png" class="swiper-slide">
+      <img src="novedades/articulo18/3.png" class="swiper-slide">
+      <img src="novedades/articulo18/4.png" class="swiper-slide">
+      <img src="novedades/articulo18/5.png" class="swiper-slide">
+      <img src="novedades/articulo18/6.jpg" class="swiper-slide">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
             <div class="product-txt">
                 <h3>Camperon Mujer Corderito</h3>
                 <p>Calidad Premium</p>
