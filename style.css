@@ -22,9 +22,34 @@ img {
     max-width: 100%;
 }
 
-.container {
+
+
+
+
+
+header{
+    background: url(img/header.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+}
+header h1{
+    text-align: center;
+    font-size: 35px;
+    /* background-color: #000; */
+    color: #fff;
+    padding: 30px 0;
+}
+.contenedor{
     max-width: 1200px;
-    margin: 0 auto;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* oculto lo que queda fuera del .contenedor */
+    contain: paint;
+
+
 }
 
 header {
@@ -33,6 +58,7 @@ header {
     min-height: 10%;
     background-color: #ffffff;
     padding: 10px;
+
 }
 
 .menu {
@@ -200,7 +226,19 @@ th, td {
     margin-bottom: 15px;
 }
 
+
 .btn-2 {
+    display: inline-block;
+    padding: 7px 10px;
+    margin: 10px;
+    background-color: #111111;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.btn-pagar {
     display: inline-block;
     padding: 7px 10px;
     background-color: #111111;
@@ -223,17 +261,57 @@ th, td {
     margin-bottom: 50px;
 }
 
-.product-content {
+.contenedor .contenedor-items {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+  
+    
+
+
+
+    margin-top: 30px;
+   
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:30px;
+    grid-row-gap: 30px;
+    /* width: 60%; */
+    width: 100%;
+    transition: .3s;
+
+
+
+
+
 }
 
-.product {
+.contenedor .contenedor-items .item {
     text-align: center;
-    padding: 1%;
+ 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+    
+    color: #111111;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+  
+
 }
+.contenedor .contenedor-items .item .img-item{
+    width: 100%;
+}
+
+.contenedor .contenedor-items .item:hover{
+    box-shadow: 30px #666;
+    scale: 1.08;
+}
+
+
+
 
 .product img {
     width: 300px;
@@ -352,6 +430,21 @@ th, td {
         display: initial;
 
     }
+
+
+    .contenedor {
+      display: block;
+    }
+    .contenedor-items{
+        width: 100% !important;
+    }
+    .carrito{
+        width: 100%;
+    }
+
+
+
+    
     .menu .navbar {
         position: absolute;
         top: 100%;
@@ -686,3 +779,10 @@ th, td {
         }
 
 
+
+
+
+
+
+
+        
